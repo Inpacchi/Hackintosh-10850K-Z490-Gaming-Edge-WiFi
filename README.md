@@ -16,6 +16,7 @@ Hackintosh build for an i9-10850K on an MSI MPG Z490 Gaming Edge Wi-Fi
 - PowerColor Red Devil Radeon RX 5700 XT
 
 ## What's tested and working?
+- iServices
 - Audio
 - Wi-Fi & Bluetooth
   - Wi-Fi works with the itlwm.kext found [here](https://github.com/OpenIntelWireless/itlwm)<sup>1</sup> but read into this a bit more; it requires you to hardcode the SSID and password OR use HeliPort to gain Wi-Fi access.
