@@ -53,7 +53,7 @@ Hackintosh build for an i9-10850K on an MSI MPG Z490 Gaming Edge Wi-Fi
 - Temperature: 36 celsius average during less intensive calculations; 60-65 celsius average during more intensive calculations
 
 ### Overclocked CPU
-- Settings: 5.1GHz All-Core @ 1.33v, LLC mode 2
+- Settings: 5.1GHz All-Core @ 1.33v, LLC mode 4
 #### Cinebench R23
 - Score: 17,297
 - Temperature: 87 celsius average, 88 celsius peak
