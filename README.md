@@ -5,7 +5,7 @@ Hackintosh build for an i9-10850K on an MSI MPG Z490 Gaming Edge Wi-Fi
 - OpenCore v0.6.7
 - macOS Catalina 10.15.7
 
-## Build Specs
+## [Build Specs](https://pcpartpicker.com/list/9b7GYg)
 - Intel Core i9-10850K
 - Arctic Liquid Freezer II 360
 - MSI MPG Z490 Gaming Edge Wi-Fi
