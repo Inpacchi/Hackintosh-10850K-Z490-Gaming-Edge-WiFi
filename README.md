@@ -43,10 +43,14 @@ Hackintosh build for an i9-10850K on an MSI MPG Z490 Gaming Edge Wi-Fi
 
 ## Overclock Settings
 ### CPU
-#### Cinebench R23
 - Settings: 5.1GHz All-Core @ 1.32v, LLC mode 2
+#### Cinebench R23
 - Score: 17,184
 - Temperature: 87 celsius averaege; 80-88 celsius average range
+#### [Geekbench](https://browser.geekbench.com/v5/cpu/7110158)
+- Single-Core Score: 1333
+- Multi-Core Score: 11469
+- Temperature: Maxed out at about 88 celsius
   
 ### RAM
 - 3733 @ 1.35v, 16-18-18-38
