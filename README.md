@@ -42,7 +42,17 @@ Hackintosh build for an i9-10850K on an MSI MPG Z490 Gaming Edge Wi-Fi
 - Using USBMap, I disabled ports I deemed non-essential to my needs - which were my front USB ports.
 
 ## Overclock Settings
-### CPU
+### Baseline CPU
+- Settings: Everything stock/auto in BIOS
+#### Cinebench R23
+- Score: 16,360
+- Temperature: 65-70 celsius average, 71 celsius peak
+#### [Geekbench](https://browser.geekbench.com/v5/cpu/7117150)
+- Single-Core Score: 1319
+- Multi-Core Score:11,604
+- Temperature: 36 celsius average during less intensive calculations; 60-65 celsius average during more intensive calculations
+
+### Overclocked CPU
 - Settings: 5.1GHz All-Core @ 1.32v, LLC mode 2
 #### Cinebench R23
 - Score: 16,836
