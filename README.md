@@ -35,7 +35,7 @@ Hackintosh build for an i9-10850K on an MSI MPG Z490 Gaming Edge Wi-Fi
 - You can't install macOS without a network connection, so you have to use the terminal to set the negotiation speed.
   - `ifconfig en0 media 1000baseT` should typically take care of this.
 - I had this nagging issue where the installer would crash back to the start screen after I select a disk. I found this issue by looking in the installer log and found the line `No mapping for user data read` which, upon some Googling, revealed USB and port issues. Unfortuantely I didn't have macOS installed so I wasn't sure how to fix this...so I disabled all but two ports in the BIOS and found out which ports were still enabled by trial and error. I used a USB Hub for my installation media, keyboard and mouse and it installed without a hitch.
-- My current issue is that the system will essentially crash (speaker starts making a buzzing noise, cursor turns pixelated and the system stops responding) which I have not been able to find a solution for.
+- My current issue is that the system will essentially crash (speaker starts making a buzzing noise, cursor turns pixelated and the system stops responding.) Some Googling shows that this might be due to my overclocked RAM. I didn't think this at first because my original overclock was stable on Windows, but it figures that it'd be different on a Hackintosh (I mean, duh, right?) Currently have it toned down a notch and testing.
 
 ## Important Notes
 - I pretty much followed the [Dortania Guide](http://dortania.github.io) to a tee
@@ -45,13 +45,13 @@ Hackintosh build for an i9-10850K on an MSI MPG Z490 Gaming Edge Wi-Fi
 ### CPU
 - Settings: 5.1GHz All-Core @ 1.32v, LLC mode 2
 #### Cinebench R23
-- Score: 17,184
-- Temperature: 87 celsius averaege; 80-88 celsius average range
+- Score: 16,836
+- Temperature: 87-90 celsius average, 92 celsius peak
 #### [Geekbench](https://browser.geekbench.com/v5/cpu/7110158)
 - Single-Core Score: 1333
 - Multi-Core Score: 11469
-- Temperature: Maxed out at about 88 celsius
+- Temperature: 50 celsius average during less intensive calculations; 88 celsius average during more intensive calculations
   
 ### RAM
-- 3733 @ 1.35v, 16-18-18-38
+- 3600 @ 1.35v, 16-18-18-38
 - Stress tested using macOS version of memtest
