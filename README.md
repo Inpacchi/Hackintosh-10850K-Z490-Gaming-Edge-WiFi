@@ -1,10 +1,13 @@
 # Hackintosh-10850K-Z490-Gaming-Edge-WiFi
 Hackintosh build for an i9-10850K on an MSI MPG Z490 Gaming Edge Wi-Fi
 
-## OpenCore v0.6.7
+## Major Versions
+- OpenCore v0.6.7
+- macOS Catalina 10.15.7
 
 ## Build Specs
 - Intel Core i9-10850K
+- Arctic Liquid Freezer II 360
 - MSI MPG Z490 Gaming Edge Wi-Fi
 	- Audio: Realtek ALC1200-VD1
 	- LAN: Realtek RTL8125B 2.5G
@@ -13,7 +16,6 @@ Hackintosh build for an i9-10850K on an MSI MPG Z490 Gaming Edge Wi-Fi
 - PowerColor Red Devil Radeon RX 5700 XT
 
 ## What's tested and working?
-- macOS Catalina 10.15.7
 - Audio
 - Wi-Fi & Bluetooth
   - Wi-Fi works with the itlwm.kext found [here](https://github.com/OpenIntelWireless/itlwm)<sup>1</sup> but read into this a bit more; it requires you to hardcode the SSID and password OR use HeliPort to gain Wi-Fi access.
@@ -36,17 +38,15 @@ Hackintosh build for an i9-10850K on an MSI MPG Z490 Gaming Edge Wi-Fi
 
 ## Important Notes
 - I pretty much followed the [Dortania Guide](http://dortania.github.io) to a tee
-- Using USBMap, I disabled ports I deemed non-essential to my needs - which was my front USB ports as well as a USB 3.0 port on the back.
+- Using USBMap, I disabled ports I deemed non-essential to my needs - which were my front USB ports.
 
 ## Overclock Settings
 ### CPU
-- 5.0GHz All-Core @ 1.31v, LLC mode 2
-  - Cinebench: 16,400
-  - Averaged around 87 celsius with a range of about 84-88 celsius
-- 5.1GHz All-Core @ 1.32v, LLC mode 2
-  - Cinebench: 16,800
-  - I forget what the average temps were, will update soon
+#### Cinebench R23
+- Settings: 5.1GHz All-Core @ 1.32v, LLC mode 2
+- Score: 17,184
+- Temperature: 87 celsius averaege; 80-88 celsius average range
   
 ### RAM
 - 3733 @ 1.35v, 16-18-18-38
-- Ran using macOS version of memtest
+- Stress tested using macOS version of memtest
