@@ -53,15 +53,15 @@ Hackintosh build for an i9-10850K on an MSI MPG Z490 Gaming Edge Wi-Fi
 - Temperature: 36 celsius average during less intensive calculations; 60-65 celsius average during more intensive calculations
 
 ### Overclocked CPU
-- Settings: 5.1GHz All-Core @ 1.32v, LLC mode 2
+- Settings: 5.1GHz All-Core @ 1.33v, LLC mode 2
 #### Cinebench R23
-- Score: 16,836
-- Temperature: 87-90 celsius average, 92 celsius peak
-#### [Geekbench](https://browser.geekbench.com/v5/cpu/7110158)
+- Score: 17,297
+- Temperature: 87 celsius average, 88 celsius peak
+#### [Geekbench](https://browser.geekbench.com/v5/cpu/7118227)
 - Single-Core Score: 1333
-- Multi-Core Score: 11469
-- Temperature: 50 celsius average during less intensive calculations; 88 celsius average during more intensive calculations
+- Multi-Core Score: 12,192
+- Temperature: 38 celsius average during less intensive calculations; 72-80 celsius average during more intensive calculations
   
 ### RAM
-- 3600 @ 1.35v, 16-18-18-38
+- 3600 @ 1.35v, 14-14-14-34
 - Stress tested using macOS version of memtest
