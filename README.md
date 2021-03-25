@@ -61,6 +61,8 @@ Hackintosh build for an i9-10850K on an MSI MPG Z490 Gaming Edge Wi-Fi
 - Single-Core Score: 1333
 - Multi-Core Score: 12,192
 - Temperature: 38 celsius average during less intensive calculations; 72-80 celsius average during more intensive calculations
+#### Notes
+I tried LLC mode 2 but saw peaks of 92 celsius and an average of about 89-90 celsius. It was much more stable temperature-wise on LLC mode 4.
   
 ### RAM
 - 3600 @ 1.35v, 14-14-14-34
